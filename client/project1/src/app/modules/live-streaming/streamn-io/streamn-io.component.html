@@ -1,0 +1,21 @@
+<div class="container1">
+  <div class="container-wrap">
+    <label for="">Live Stream Youtube Link</label>
+    <input type="text" class="link" [(ngModel)]="url" placeholder="Enter live stream url">
+    <input type="text" class="link" [(ngModel)]="keyword" placeholder="Enter Keyword by comma seprated">
+    <button class="load cursor-pointer" (click)="viewLiveStream()">Load</button>
+  </div>
+  <!-- <div class="container-wrap">
+    <input type="text" class="link" [(ngModel)]="search" placeholder="Enter search keyword">
+    <button class="load cursor-pointer" (click)="searchByKeyword()">Search</button>
+  </div> -->
+  <div class="container-wrap">
+      <div class="chat-box" *ngFor="let msg of message">
+        <img src="assets/images/user.png" alt="">
+        <label for="">{{msg.sender}}</label>
+        <div class="msg">
+          {{msg.message}}
+        </div>
+      </div>
+  </div>
+</div>

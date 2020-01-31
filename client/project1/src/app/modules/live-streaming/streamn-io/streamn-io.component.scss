@@ -1,0 +1,31 @@
+input.link {
+  width: 300px;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+button.load {
+  padding: 5px;
+  width: 100px;
+}
+
+.chat-box {
+  padding: 20px;
+  box-shadow: 0 0 5px 0 grey;
+  margin-top: 20px;
+  img {
+    width: 40px;
+    vertical-align: middle;
+  }
+  label {
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 18px;
+  }
+  .msg {
+    margin-left: 44px;
+    padding: 5px;
+    max-height: 50px;
+    overflow-y: auto;
+  }
+}

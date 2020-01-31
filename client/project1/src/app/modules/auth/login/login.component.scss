@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  .container-wrap {
+    width: 1000px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  img {
+    width: 80%;
+    box-shadow: 0 5px 15px -5px grey;
+  }
+  .btn {
+    display: inline-block;
+    border-radius: 0.2em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 3%;
+    color: #ffffff;
+    background-color: #04354a;
+    box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17), inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
+      inset 0 0 0em 0.05em rgba(209, 155, 155, 0.12);
+    img {
+      width: 25px;
+      vertical-align: middle;
+      padding: 3px;
+    }
+  }
+}
